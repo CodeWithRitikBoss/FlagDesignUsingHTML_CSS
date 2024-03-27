@@ -6,8 +6,11 @@
 body{
     background-color: skyblue;
 }
+.flagBody{
+    margin-left: 250px;
+}
 .flag {
-    margin: 30px auto;
+    margin: 50px auto;
     position: relative;
     width: 250px;
     height: 150px;
@@ -247,18 +250,21 @@ body{
     color: #f4645f;
     font-weight: 700;
 }
+.flagFoot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .border1 {
     border: 2px solid pink;
-
 }
 
 .one {
     width: 100px;
     height: 40px;
     background-color: brown;
-    margin-top: 250px;
-    margin-left: 540px;
+    margin-top: 198px;
 }
 
 .two {
@@ -266,7 +272,6 @@ body{
     height: 40px;
     background-color: brown;
     margin-top: 0px;
-    margin-left: 514px;
 }
 
 .three {
@@ -274,7 +279,6 @@ body{
     height: 40px;
     background-color: brown;
     margin-top: 0px;
-    margin-left: 490px;
 }
 img{
     width: 100%;
